@@ -26,7 +26,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
             </h3>
           </div>
           <div className="post__headerDescription">
-            <p>I challenge you to build a twitter clone with react</p>
+            <p>Building a twitter clone with React! Or should i say... React-ing?</p>
           </div>
         </div>
         <img
