@@ -13,24 +13,25 @@ function Post({ displayName, username, verified, text, image, avatar }) {
   return (
     <div className="post">
       <div className="post__avatar">
-        <Avatar src="https://i.imgur.com/23yg1IZ.jpg" />
+        <Avatar src={avatar} />
       </div>
       <div className="post__body">
         <div className="post__header">
           <div className="post__headerText">
             <h3>
-              CannedShroud
+              {displayName}
               <span>
                 <VerifiedUser className="post__badge" />
               </span>
             </h3>
           </div>
           <div className="post__headerDescription">
-            <p>Building a twitter clone with React! Or should i say... React-ing?</p>
+            <p>{text}
+            </p>
           </div>
         </div>
         <img
-          src="https://media.tenor.com/images/3a072176a16040cd7e9ac43cdaa49e3c/tenor.gif"
+          src={image}
           alt=""
         />
         <div className="post__footer">
