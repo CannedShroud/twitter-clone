@@ -13,7 +13,7 @@
 
 .post__body > img {
   border-radius: 20px;
-  width: 100%;
+  width: 80%;
 }
 
 .post__footer {
@@ -32,6 +32,8 @@
 .post__headerDescription {
   margin-bottom: 10px;
   font-size: 15px;
+  max-width: 500px !important;
+  overflow: wrap;
 }
 
 .post__avatar {
